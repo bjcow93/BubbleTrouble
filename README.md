@@ -29,27 +29,21 @@ This project will be implemented bwith the following technologies:
   
 ## Implementation Timeline
 ### Day 1
-- [ ] 
-- [ ]
-- [ ]
+- [ ] Determine what files are necessary
+- [ ] Outline project skeleton
+- [ ] Research necessary technologies
 ### Day 2
-- [ ] 
-- [ ]
-- [ ]
+- [ ] Create level content (visuals and elements, not necessarily functional yet)
+- [ ] Work on physics of level elements
 ### Day 3
-- [ ] 
-- [ ]
-- [ ]
+- [ ] Make the elements of the level functional
+- [ ] Add user functionality
 ### Over the weekend
-- [ ] 
-- [ ]
-- [ ]
-### Day 6
-- [ ] 
-- [ ]
-- [ ]
-### Day 7
-- [ ] 
-- [ ]
-- [ ]
+- [ ] Make sure user can interact correctly with the rest of the elements of the level
+- [ ] Add additional user for multiplayer purposes
+### Day 6 & 7
+- [ ] Fix bugs
+- [ ] Add finishing touches
+- [ ] Possibly get around to some bonus features
+
 
