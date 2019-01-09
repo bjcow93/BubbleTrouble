@@ -5,9 +5,16 @@
   My motivation for duplicating this game comes from all of the time that my younger self spent playing it with my friends.
   
 ## Functionality and MVP Features
+### Functionality:
 In Bubble Trouble, users will be able to:
-- [x] Use the arrow keys to move left or right on the screen
-- [x] Use the space bar to shoot a chain
+* Use the arrow keys to move left or right on the screen
+* Use the space bar to shoot a chain
+* Lose if hit with a bubble
+* Choose to play multiplayer
+
+### MVPs
+- [x] User interaction with the interface
+- [x] Appropriate generation of bubbles corresponding to the level difficulty
 - [x] Progress to harder levels
 - [x] Opt for 1 or 2 players
 
