@@ -28,3 +28,28 @@ This project will be implemented bwith the following technologies:
   * React for basic page structure and functionality
   
 ## Implementation Timeline
+### Day 1
+- [ ] 
+- [ ]
+- [ ]
+### Day 2
+- [ ] 
+- [ ]
+- [ ]
+### Day 3
+- [ ] 
+- [ ]
+- [ ]
+### Over the weekend
+- [ ] 
+- [ ]
+- [ ]
+### Day 6
+- [ ] 
+- [ ]
+- [ ]
+### Day 7
+- [ ] 
+- [ ]
+- [ ]
+
