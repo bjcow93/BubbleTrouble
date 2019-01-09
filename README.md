@@ -9,14 +9,15 @@
 In Bubble Trouble, users will be able to:
 * Use the arrow keys to move left or right on the screen
 * Use the space bar to shoot a chain
+* Destroy bubbles
 * Lose if hit with a bubble
 * Choose to play multiplayer
 
 ### MVPs
-- [x] User interaction with the interface
-- [x] Appropriate generation of bubbles corresponding to the level difficulty
-- [x] Progress to harder levels
-- [x] Opt for 1 or 2 players
+- [ ] User interaction with the interface
+- [ ] Appropriate generation of bubbles corresponding to the level difficulty
+- [ ] Progress to harder levels
+- [ ] Opt for 1 or 2 players
 
 ## Architecture and Technologies
 This project will be implemented bwith the following technologies:
