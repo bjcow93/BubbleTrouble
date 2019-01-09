@@ -4,4 +4,8 @@
   My motivation for duplicating this game comes from all of the time that my younger self spent playing it with my friends.
 ## Functionality and MVP Features
 ## Architecture and Technologies
+  * Vanilla JS fro overall structure and game logic
+  * HTML 5 Canvas for DOM manipulation and rendering
+  * Webpack to bundle various scripts
+  * React for basic page structure and functionality
 ## Implementation Timeline
