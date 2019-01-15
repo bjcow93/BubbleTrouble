@@ -1,0 +1,27 @@
+{
+  "name": "BubbleTrouble",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjcow93/BubbleTrouble.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjcow93/BubbleTrouble/issues"
+  },
+  "homepage": "https://github.com/bjcow93/BubbleTrouble#readme",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
