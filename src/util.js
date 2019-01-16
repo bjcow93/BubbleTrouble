@@ -1,10 +1,10 @@
 var Util = {}
 
-  Util.randomVec = function (length) {
-    var x = Math.random() * length;
-    var y = Math.random() * length;
-    return [x, y];
-  };
+  // Util.randomVec = function (length) {
+  //   var x = Math.random() * length;
+  //   var y = Math.random() * length;
+  //   return [x, y];
+  // };
 
   Util.dir = function (vec) {
     var norm = Util.norm(vec);

@@ -16,7 +16,6 @@ function Arrow(pos, game) {
   }
 
   Arrow.Y_DELTA = 10;
-  // Arrow.inherits(MovingObject);
 
   Arrow.prototype.move = function () {
     this.pos[1] -= this.Y_DELTA;

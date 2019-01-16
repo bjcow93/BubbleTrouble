@@ -28,7 +28,7 @@ function Levels() {};
   };
 
   Levels.levelOne = function (game, options) {
-    game.backgroundImg = Images.level1BG;
+    game.backgroundImg = Images.level1;
     options.NumOfBubbles = 1;
     options.color = "red";
     options.posArr = [
@@ -41,7 +41,7 @@ function Levels() {};
   };
 
   Levels.levelTwo = function (game, options) {
-    game.backgroundImg = Images.level2BG;
+    game.backgroundImg = Images.level2;
     options.NumOfBubbles = 3;
     options.color = "blue";
     options.posArr = [
@@ -55,7 +55,7 @@ function Levels() {};
   };
 
   Levels.levelThree = function (game, options) {
-    game.backgroundImg = Images.level3BG;
+    game.backgroundImg = Images.level3;
     options.NumOfBubbles = 2;
     options.color = "#69ef72";
     options.posArr = [
@@ -78,7 +78,7 @@ function Levels() {};
   };
 
   Levels.levelFour = function (game, options) {
-    game.backgroundImg = Images.level4BG;
+    game.backgroundImg = Images.level4;
     options.NumOfBubbles = 5;
     options.color = "#005247";
     options.posArr = [

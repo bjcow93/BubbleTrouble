@@ -10,7 +10,6 @@ function MainChar(game) {
   this.width = 25;
   this.height = 37;
   this.game = game;
-  // debugger
   this.pos = [this.game.DIM_X / 2, this.game.LOWER_BOUND - this.height];
   this.context = game.context;
   this.frame = 0;
@@ -18,7 +17,6 @@ function MainChar(game) {
 };
 
 MainChar.FRAME_LIMIT = 2;
-// MainChar.inherits(MovingObject);
 
 MainChar.prototype.loseLife = function () {
   if (this.extraLives > 0) {
