@@ -14,9 +14,9 @@ In Bubble Trouble, users will be able to:
 * Choose to play multiplayer
 
 ### MVPs
-- [ ] User interaction with the interface
-- [ ] Appropriate generation of bubbles corresponding to the level difficulty
-- [ ] Progress to harder levels
+- [x] User interaction with the interface
+- [x] Appropriate generation of bubbles corresponding to the level difficulty
+- [x] Progress to harder levels
 - [ ] Opt for 1 or 2 players
 
 ## Architecture and Technologies
