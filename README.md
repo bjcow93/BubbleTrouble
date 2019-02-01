@@ -14,9 +14,9 @@ In Bubble Trouble, users will be able to:
 * Choose to play multiplayer
 
 ### MVPs
-- [ ] User interaction with the interface
-- [ ] Appropriate generation of bubbles corresponding to the level difficulty
-- [ ] Progress to harder levels
+- [x] User interaction with the interface
+- [x] Appropriate generation of bubbles corresponding to the level difficulty
+- [x] Progress to harder levels
 - [ ] Opt for 1 or 2 players
 
 ## Architecture and Technologies
@@ -25,24 +25,23 @@ This project will be implemented bwith the following technologies:
   * Vanilla JS fro overall structure and game logic
   * HTML 5 Canvas for DOM manipulation and rendering
   * Webpack to bundle various scripts
-  * React for basic page structure and functionality
   
 ## Implementation Timeline
 ### Day 1
-- [ ] Determine what files are necessary
-- [ ] Outline project skeleton
-- [ ] Research necessary technologies
+- [x] Determine what files are necessary
+- [x] Outline project skeleton
+- [x] Research necessary technologies
 ### Day 2
-- [ ] Create level content (visuals and elements, not necessarily functional yet)
-- [ ] Work on physics of level elements
+- [x] Create level content (visuals and elements, not necessarily functional yet)
+- [x] Work on physics of level elements
 ### Day 3
-- [ ] Make the elements of the level functional
-- [ ] Add user functionality
+- [x] Make the elements of the level functional
+- [x] Add user functionality
 ### Over the weekend
-- [ ] Make sure user can interact correctly with the rest of the elements of the level
+- [x] Make sure user can interact correctly with the rest of the elements of the level
 - [ ] Add additional user for multiplayer purposes
 ### Day 6 & 7
-- [ ] Fix bugs
+- [x] Fix bugs
 - [ ] Add finishing touches
 - [ ] Possibly get around to some bonus features
 
