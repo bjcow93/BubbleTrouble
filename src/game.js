@@ -217,14 +217,24 @@ function Game(context) {
 
     this.draw();
     this.showMessage("You Win!");
+    // $(".play-again-btn").fadeIn(800);
   };
 
   Game.prototype.gameOver = function () {
     this.playing = false;
     this.draw();
     this.showMessage("You lost.");
+    // $(".play-again-btn").fadeIn(800);
   };
 
+  // Game.prototype.restartGame = function (context) {
+  //   this.arrows = [];
+  //   this.bubbles = [];
+  //   this.mainChar = new BubbleTrouble.MainChar(this);
+  //   this.level = 0;
+  //   $(".play-again-btn").hide();
+  //   this.playing = true;
+  // };
 
 
 module.exports = Game;
