@@ -14,22 +14,52 @@
     h1 {
       font-size: 32px;
       color: white;
+      margin: 3px;
     }
 
     h2 {
+      font-size: 18px;
+      color: white;
+      margin: 0px;
+    }
+
+    h3 {
       font-size: 24px;
       color: white;
+      margin: 3px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .title {
+      margin-right: 60px;
+    }
+
+    .directions {
+      margin-left: 60px;
     }
   </style>
 </head>
-<h1>Bubble Trouble</h1>
+<div class="header">
+  <h1 class="title">Bubble Trouble</h1>
+  <div class="directions">
+    <h3>How to Play:</h3>
+    <h2>- Use left and right arrow keys to move back and forth</h2>
+    <h2>- Press spacebar to shoot chain at bubbles</h2>
+    <h2>- Press 'p' to pause</h2>
+  </div>
+</div>
 <body>
+
   <canvas></canvas>
-    <h1>How to Play:</h1>
-    <h2>Use left and right arrow keys to move back and forth</h2>
-    <h2>Press spacebar to shoot chain at bubbles</h2>
-    <h2>Break all bubbles to beat the level</h2>
+
   <script src="main.js"></script>
+  
 </body>
 
 </html>
