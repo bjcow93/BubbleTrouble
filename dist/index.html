@@ -41,19 +41,48 @@
     }
 
     .directions {
-      margin-left: 60px;
+      font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+      position: fixed;
+      background: rgba(0, 0, 0, 0.7);
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+    }
+
+    .directions-section {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* background: black; */
+      transform: translate(-50%, -50%);
+    }
+
+    .directions-a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      padding: 25px;
+      height: 40px;
+      font-weight: bold;
     }
   </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
-<div class="header">
   <h1 class="title">Bubble Trouble</h1>
   <div class="directions">
-    <h3>How to Play:</h3>
-    <h2>- Use left and right arrow keys to move back and forth</h2>
-    <h2>- Press spacebar to shoot chain at bubbles</h2>
-    <h2>- Press 'p' to pause</h2>
+    <div class="directions-section">
+      <div class="directions-a">
+        <h3>How to Play:</h3>
+        <h2>- Use left and right arrow keys to move back and forth</h2>
+        <h2>- Press spacebar to shoot chain at bubbles</h2>
+        <h2>- Press 'p' to start/pause</h2>
+      </div>
+    </div>
   </div>
-</div>
 <body>
 
   <canvas></canvas>

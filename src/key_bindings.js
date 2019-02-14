@@ -17,6 +17,11 @@ function KeyBindings(game) {
         game.player1.fireArrow();
       } else if (e.keyCode == "80") {
         game.playing = !game.playing;
+        if (game.playing) {
+          $(".directions").hide();
+        } else {
+          $(".directions").show();
+        }
       } else if (e.keyCode == "65") {
         game.player2.walkingLeft = true;
       } else if (e.keyCode == "68") {

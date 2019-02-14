@@ -14,7 +14,7 @@ function Game(context) {
   this.level = 0;
   this.arrows = [];
   this.bubbles = [];
-  this.playing = true;
+  this.playing = false;
   new KeyBindings(this).bindKeys();
   this.DIM_X = 1000;
   this.DIM_Y = 600;
